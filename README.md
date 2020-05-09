@@ -6,3 +6,6 @@ Using Maps API, Firestore DataBase to store Markers Locations, GeoFlutterFire Li
 Using GeoFlutterFire to query location within radius. 
 
 ![Demo](/demo.gif)
+
+![Location collection using geohash](/firebase_snip.png)
+
