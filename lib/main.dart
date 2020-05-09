@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    setCustomMapStyle();
+    _setCustomMapStyle();
     geo = Geoflutterfire();
     GeoFirePoint center = geo.point(latitude: 48.0833 , longitude: 7.3667);
     stream = radius.switchMap((rad) {
@@ -180,7 +180,7 @@ class _MyAppState extends State<MyApp> {
     radius.add(value);
   }
 
-  void setCustomMapStyle() async {
+  void _setCustomMapStyle() async {
     style = await DefaultAssetBundle.of(context).loadString('assets/map_style.json');
   }
 
