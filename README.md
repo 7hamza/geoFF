@@ -7,5 +7,5 @@ Using GeoFlutterFire to query location within radius.
 
 ![Demo](/demo.gif)
 
-![Location collection using geohash](/firebase_snip.png)
+![Location collection using geohash](/firebase_snip.PNG)
 
